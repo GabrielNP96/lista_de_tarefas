@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(233, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: white;
+    width: 75%;
+    padding: 2%;
+    border-radius: 1vh;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    margin-bottom: 7px;
+}
+
+li {
+    text-align: left;
+}
+
+.added_tasks{
+    margin: 10vh;
+}
+
+.add_task {
+    padding: 1vh;
+    width: 70%;
+}
+
+.btn {
+    padding: 1vh;
+    margin-left: 0.2vh;
+}
+
+.to-do_list {
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+  
+    main {
+      width: 90%;
+      margin: 0 auto;
+      padding: 5%;
+    }
+  
+    .add_task {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 48%;
+      margin: 1% 1%;
+    }
+  }
+  
